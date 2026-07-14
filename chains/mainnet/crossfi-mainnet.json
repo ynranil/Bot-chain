@@ -1,0 +1,28 @@
+{
+    "chain_name": "crossfi-mainnet",
+    "coingecko": "",
+    "api": [
+        {"provider": "ITRocket", "address": "https://crossfi-mainnet-api.itrocket.net"},
+        {"provider": "CryptoNode", "address": "https://crossfi-mainnet-api.cryptonode.id"},
+        {"provider": "StakerHouse", "address": "https://crossfi-rest.stakerhouse.com"}
+    ], 
+    "rpc": [
+        {"provider": "ITRocket", "address": "https://crossfi-mainnet-rpc.itrocket.net"},
+        {"provider": "CryptoNode", "address": "https://crossfi-mainnet-rpc.cryptonode.id"},
+        {"provider": "StakerHouse", "address": "https://crossfi-rpc.stakerhouse.com"}
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.12",
+    "coin_type": "60",
+    "min_tx_fee": "4000",
+    "addr_prefix": "mx",
+    "logo": "https://mainnet.itrocket.net/logos/crossfi.jpg",
+    "keplr_features": ["eth-address-gen", "eth-key-sign"],
+    "assets": [{
+        "base": "mpx",
+        "symbol": "PX",
+        "exponent": "18", 
+        "coingecko_id": "",
+        "logo": "https://mainnet.itrocket.net/logos/crossfi.jpg"
+    }]
+}
